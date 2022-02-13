@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Cadastro Munka</title>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Cadastro de TST</h1>
+
+        <div class="dados">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Digite o nome" id="nome" class="nome">
+        </div>
+
+        <div class="dados">
+            <label for="telefone">Telefone</label>
+            <input type="tel" placeholder="Digite o telefone" id="telefone" class="telefone">
+        </div>
+        <div class="dados">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Digite o email" id="email" class="email">
+        </div>
+        <button onclick="cadastrar()">Cadastrar na base</button>
+       <ul class="campoBaseDados"></ul>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
